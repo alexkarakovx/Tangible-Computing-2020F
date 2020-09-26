@@ -7,20 +7,21 @@
 
 header{
 	background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(../1.jpg);
-	height: 100vh;
+	height: 400vh;
 	background-size: cover;
 	background-position: center;
 }
 
 ul{
 	float: right;
-	text-align: center;
-	list-style-type: none;
+	text-align: right;
+	list-style-type: right;
 	margin-top: 25px;
 }
 
 ul li{
-	display: inline-block;
+	display: table;
+	padding: 7px;
 }
 
 ul li a{
@@ -45,8 +46,7 @@ ul li.active a{
 	width: 150px; 
 	height: auto;
 	position: absolute;
-	top: 18%;
-	left: 70%;
+	
 
 }
 
@@ -57,8 +57,7 @@ ul li.active a{
 
 .title{
 	position: absolute;
-	top: 20%;
-	left: 27%;
+	margin: 100px;
 	text-align: center;
 
 	
@@ -71,10 +70,11 @@ ul li.active a{
 }
 
 p {
-	font-size: 22px;
+	font-size: 20px;
+	text-indent: 10vw;
 	font-style: normal;
 	font-weight: 100;
-	text-align: center;
+	text-align: left;
 	text-decoration: none;
 	color: #2b0d78;
 }
